@@ -14,6 +14,10 @@ tfidf=pkl.load(open('vectorizer.pkl','rb'))
 model=pkl.load(open('model.pkl','rb'))
 st.title("📩 SMS Spam Classifier")
 st.write("Detect whether a message is Spam or Not Spam")
+st.info(
+    "⚠️ Note: This tool uses Machine Learning, which isn't always 100% accurate. "
+    "Results may occasionally be wrong — use your own judgment too!"
+)
 input_sms=st.text_input("Enter the message")
 
 
