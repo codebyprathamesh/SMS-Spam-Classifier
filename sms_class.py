@@ -42,7 +42,7 @@ def transform_text(text):
 if st.button("Predict"):
     
     if input_sms=="":
-     st.warning("Please enter a message!")
+        st.warning("Please enter a message!")
         #1 Preprocess
     else:
         transformed_sms=transform_text(input_sms)
