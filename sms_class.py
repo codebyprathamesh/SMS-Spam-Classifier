@@ -139,4 +139,4 @@ with tab3:
     
     ### Links
     - 📂 [GitHub Repository](https://github.com/codebyprathamesh/spam-classifier)
-    
+    """)
