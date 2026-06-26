@@ -100,7 +100,7 @@ with tab3:
     
     ### Links
     - 📂 [GitHub](https://github.com/codebyprathamesh/SMS-Spam-Classifier)
-    - 📺 [YouTube Tutorial](https://www.youtube.com/c/CODELIX)
+   
     """)
         
 
