@@ -6,6 +6,13 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import matplotlib.pyplot as plt
 import seaborn as sns
+@st.cache_resource
+def download_nltk_data():
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    nltk.download('punkt_tab')
+
+download_nltk_data()
 ps=PorterStemmer()
 
 tfidf=pkl.load(open('vectorizer.pkl','rb'))
